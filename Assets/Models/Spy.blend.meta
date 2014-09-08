@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: bcdf6d913bf2645fc97ed9b34dd720c1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm-lower_l
+    100002: arm-upper_l
+    100004: Armature
+    100006: Cube
+    100008: Cube_001
+    100010: head
+    100012: neck
+    100014: neck-bottom
+    100016: root
+    100018: //RootNode
+    100020: torso
+    100022: torso-upper
+    100024: torso-upper_004
+    100026: torso-upper_005
+    100028: torso-upper_006
+    100030: torso-upper_007
+    100032: torso-upper_008
+    100034: torso_001
+    100036: torso_002
+    100038: arm-lower_L
+    100040: arm-lower_R
+    100042: arm-upper_L
+    100044: arm-upper_R
+    100046: beak-lower
+    100048: beak-upper
+    100050: eye_L
+    100052: eye_R
+    100054: hat
+    100056: leg-upper_L
+    100058: leg-upper_R
+    100060: leg_lower_L
+    100062: leg_lower_R
+    100064: pupil_L
+    100066: pupil_R
+    100068: Cube_002
+    100070: neck-lower
+    100072: spyMesh
+    100074: spyRig
+    400000: arm-lower_l
+    400002: arm-upper_l
+    400004: Armature
+    400006: Cube
+    400008: Cube_001
+    400010: head
+    400012: neck
+    400014: neck-bottom
+    400016: root
+    400018: //RootNode
+    400020: torso
+    400022: torso-upper
+    400024: torso-upper_004
+    400026: torso-upper_005
+    400028: torso-upper_006
+    400030: torso-upper_007
+    400032: torso-upper_008
+    400034: torso_001
+    400036: torso_002
+    400038: arm-lower_L
+    400040: arm-lower_R
+    400042: arm-upper_L
+    400044: arm-upper_R
+    400046: beak-lower
+    400048: beak-upper
+    400050: eye_L
+    400052: eye_R
+    400054: hat
+    400056: leg-upper_L
+    400058: leg-upper_R
+    400060: leg_lower_L
+    400062: leg_lower_R
+    400064: pupil_L
+    400066: pupil_R
+    400068: Cube_002
+    400070: neck-lower
+    400072: spyMesh
+    400074: spyRig
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    4300000: Cube_001
+    4300002: Cube
+    4300004: Cube_002
+    4300006: spyMesh
+    7400000: Default Take
+    7400002: idle
+    7400004: run
+    7400006: win
+    9500000: //RootNode
+    13700000: spyMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: spyMesh
+        weight: 1
+      - path: spyRig
+        weight: 1
+      - path: spyRig/root
+        weight: 1
+      - path: spyRig/root/leg-upper_L
+        weight: 1
+      - path: spyRig/root/leg-upper_L/leg_lower_L
+        weight: 1
+      - path: spyRig/root/leg-upper_R
+        weight: 1
+      - path: spyRig/root/leg-upper_R/leg_lower_R
+        weight: 1
+      - path: spyRig/root/torso
+        weight: 1
+      - path: spyRig/root/torso/torso-upper
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_L/arm-lower_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_R
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_R/arm-lower_R
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/beak-lower
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/beak-upper
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/hat
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/pupil_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/pupil_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: -1
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: spyMesh
+        weight: 1
+      - path: spyRig
+        weight: 1
+      - path: spyRig/root
+        weight: 1
+      - path: spyRig/root/leg-upper_L
+        weight: 1
+      - path: spyRig/root/leg-upper_L/leg_lower_L
+        weight: 1
+      - path: spyRig/root/leg-upper_R
+        weight: 1
+      - path: spyRig/root/leg-upper_R/leg_lower_R
+        weight: 1
+      - path: spyRig/root/torso
+        weight: 1
+      - path: spyRig/root/torso/torso-upper
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_L/arm-lower_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_R
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_R/arm-lower_R
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/beak-lower
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/beak-upper
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/hat
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/pupil_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/pupil_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: win
+      takeName: win
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: spyMesh
+        weight: 1
+      - path: spyRig
+        weight: 1
+      - path: spyRig/root
+        weight: 1
+      - path: spyRig/root/leg-upper_L
+        weight: 1
+      - path: spyRig/root/leg-upper_L/leg_lower_L
+        weight: 1
+      - path: spyRig/root/leg-upper_R
+        weight: 1
+      - path: spyRig/root/leg-upper_R/leg_lower_R
+        weight: 1
+      - path: spyRig/root/torso
+        weight: 1
+      - path: spyRig/root/torso/torso-upper
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_L/arm-lower_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_R
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/arm-upper_R/arm-lower_R
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/beak-lower
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/beak-upper
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/hat
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/pupil_L
+        weight: 1
+      - path: spyRig/root/torso/torso-upper/neck-lower/neck/head/pupil_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .150000006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
